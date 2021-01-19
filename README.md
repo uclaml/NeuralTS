@@ -1,4 +1,6 @@
-# Code for Neural Thompson Sampling
+# Neural Thompson Sampling
+
+This repository contains our PyTorch implementation of Zhang, Weitong, et al. "Neural Thompson Sampling." arXiv preprint arXiv:2010.00827 (2020). (accepted by ICLR 2021)
 
 > @article{zhang2020neural,  
 >  title={Neural Thompson Sampling},  
@@ -6,6 +8,10 @@
 >  journal={arXiv preprint arXiv:2010.00827},  
 >  year={2020}  
 >}  
+
+## Additional Dependency
+
+We use [BackPack](https://backpack.pt) to get the gradient of the neural network in batch. To install, following the structure on their website and for further details, refer to their paper Dangel, Felix, Frederik Kunstner, and Philipp Hennig. "BackPACK: Packing more into backprop." arXiv preprint arXiv:1912.10985 (2019).
 
 ## Dependencies and Installation
 
